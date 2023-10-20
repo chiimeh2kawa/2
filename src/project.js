@@ -735,7 +735,7 @@ window.__require = function e(t, n, o) {
                         var n = i.default.Spawn("EffectSprite");
                         n.parent = this.downEffectPartiParent;
                         var o = n.getComponent("EffectSprite");
-                        o.Reset(), n.position = e, n.scale = 0, o.SetSprite(r.default.Instance.GetSpriteFrame("ball"), cc.v2(20, 20)), o.node.color = (new cc.Color).fromHEX("#AD0909"), n.setContentSize(a.default.RandomInteger(16, 18), a.default.RandomInteger(16, 18)), n.runAction(cc.sequence(cc.delayTime(.5 * t), cc.delayTime(.5), cc.scaleTo(.1, 0))), n.runAction(cc.sequence(cc.delayTime(.4 * t), cc.scaleTo(.3, 1), cc.moveBy(.6, cc.v2(0, -180)), cc.callFunc(function() {}, n)))
+                        o.Reset(), n.position = e, n.scale = 0, o.SetSprite(r.default.Instance.GetSpriteFrame("ball"), cc.v2(20, 20)), o.node.color = (new cc.Color).fromHEX("#f13f3f"), n.setContentSize(a.default.RandomInteger(16, 18), a.default.RandomInteger(16, 18)), n.runAction(cc.sequence(cc.delayTime(.5 * t), cc.delayTime(.5), cc.scaleTo(.1, 0))), n.runAction(cc.sequence(cc.delayTime(.4 * t), cc.scaleTo(.3, 1), cc.moveBy(.6, cc.v2(0, -180)), cc.callFunc(function() {}, n)))
                     }
                 }, t.prototype.LightBoomAndMove = function(e, t) {
                     for (var n = a.default.RandomInteger(32, 43), o = 0; o < n; o++) {
@@ -987,9 +987,9 @@ window.__require = function e(t, n, o) {
                         scale: .9
                     }).union().repeatForever().start()
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
-                    window.location.href = "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png"
+                    window.location.href = "https://www.instagram.com/chiimeh2kawa/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
                 }, t.prototype.bannerButtonFunc = function() {
-                    window.location.href = "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png"
+                    window.location.href = "https://www.instagram.com/chiimeh2kawa/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
                 }, t.prototype.ShowFailedUi = function(e, t) {
                     var n = this;
                     this.scheduleOnce(function() {
@@ -1901,7 +1901,7 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.update = function(e) {
                     this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
                 }, t.prototype.adsButtonFunc = function() {
-                    window.location.href = "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png";
+                    window.location.href = "https://www.instagram.com/chiimeh2kawa/?igshid=OGQ5ZDc2ODk2ZA%3D%3D";
                 }, t.prototype.TestPasslevel = function() {
                     var e = this;
                     this.lerpCtrl = !0, this.nowYQ >= this.passlevelYQ && (this.levelPanel.children[2].runAction(cc.sequence(cc.delayTime(1.3), cc.callFunc(function() {
